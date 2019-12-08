@@ -113,7 +113,7 @@ const SiteTitle = styled.h1`
   }
 `
 
-const NameBoard = styled.h5`
+const NameBoard = styled.h3`
   display: flex;
 
   /* Device = Tablets, iPads (portrait) */
@@ -138,7 +138,7 @@ export default ({ title, authorName }) => (
       <SiteTitle>{title}</SiteTitle>
     </StyledLink>
     <Logo
-      src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAwIDEyMDAiPgogIDxwYXRoIGQ9Ik02MDAgMEMyNjguNiAwIDAgMjY4LjYgMCA2MDBzMjY4LjYgNjAwIDYwMCA2MDAgNjAwLTI2OC42IDYwMC02MDBTOTMxLjQgMCA2MDAgMHpNMjY2LjYgOTMzLjNDMTc2LjEgODQyLjggMTMxIDcyNC42IDEyOS42IDYwNkw1OTQgMTA3MC40Yy0xMTguNi0xLjQtMjM2LjgtNDYuNS0zMjcuNC0xMzcuMXptNDM3LjcgMTI2LjFMMTQwLjYgNDk1LjdjNDcuNS0yMTAuMSAyMzUtMzY3LjEgNDU5LjQtMzY3LjEgMTU2LjkgMCAyOTUuNSA3NyAzODEuMiAxOTQuOUw5MTUuNiAzNzlDODQ1LjggMjc5LjUgNzMwLjUgMjE0LjMgNjAwIDIxNC4zYy0xNjcuNyAwLTMxMC4zIDEwNy43LTM2My4zIDI1Ny41bDQ5MS42IDQ5MS42YzEyMy40LTQzLjcgMjE4LTE0OC4yIDI0Ny42LTI3Ny42SDc3MS40VjYwMGgzMDBjMCAyMjQuNS0xNTcgNDExLjktMzY3LjEgNDU5LjR6IiBmaWxsPSIjNjM5Ii8+Cjwvc3ZnPgo="
+      src="https://media.licdn.com/dms/image/C5103AQFKD5Za66TbkA/profile-displayphoto-shrink_200_200/0?e=1581552000&v=beta&t=dmLrmxuepUKCPb_Vu4ZvfeXWgLu4gibULm17iOFOlGg"
       alt={authorName}
     />
     <NameBoard>{authorName}</NameBoard>
@@ -163,7 +163,7 @@ export default ({ title, authorName }) => (
       <div>
         <p>
           <StyledHref
-            href="https://www.linkedin.com/in/vimalraj-selvam/"
+            href="https://www.linkedin.com/in/karthick-ram"
             rel="noopener noreferrer"
             target="_blank"
           >
@@ -172,7 +172,7 @@ export default ({ title, authorName }) => (
         </p>
         <p>
           <StyledHref
-            href="https://github.com/email2vimalraj"
+            href="https://github.com/karthickram286"
             target="_blank"
             rel="noopener noreferrer"
           >
