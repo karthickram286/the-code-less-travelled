@@ -6,7 +6,10 @@ import {
   FaUserSecret,
   FaLinkedin,
   FaGithub,
-  FaHashtag
+  FaHashtag,
+  FaHackerrank,
+  FaStackOverflow,
+  FaXing
 } from 'react-icons/fa'
 
 const Sidebar = styled.div`
@@ -167,7 +170,7 @@ export default ({ title, authorName }) => (
             rel="noopener noreferrer"
             target="_blank"
           >
-            <FaLinkedin /> <span>Linkedin</span>
+            <FaLinkedin /> <span>LinkedIn</span>
           </StyledHref>
         </p>
         <p>
@@ -176,7 +179,34 @@ export default ({ title, authorName }) => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaGithub /> <span>Github</span>
+            <FaGithub /> <span>GitHub</span>
+          </StyledHref>
+        </p>
+        <p>
+          <StyledHref
+          href="https://www.hackerrank.com/Karthick_ram"
+          target="_blank"
+          rel="noopener noreferre"
+          >
+            <FaHackerrank /> <span>Hackerrank</span>
+          </StyledHref>
+        </p>
+        <p>
+          <StyledHref
+          href="https://stackoverflow.com/users/6056634/karthick-ram"
+          target="_blank"
+          rel="noopener noreferre"
+          >
+            <FaStackOverflow /> <span>StackOverflow</span>
+          </StyledHref>
+        </p>
+        <p>
+          <StyledHref
+          href="https://www.xing.com/profile/Karthick_Ramachandran3/cv"
+          target="_blank"
+          rel="noopener noreferre"
+          >
+            <FaXing /> <span>Xing</span>
           </StyledHref>
         </p>
       </div>

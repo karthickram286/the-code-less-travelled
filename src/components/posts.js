@@ -5,7 +5,7 @@ import styled from 'styled-components'
 import { rhythm } from '../utils/typography'
 import PostTags from '../components/postTags'
 
-const PostTitle = styled.h3`
+const PostTitle = styled.h2`
   margin-bottom: ${rhythm(1 / 4)};
 `
 

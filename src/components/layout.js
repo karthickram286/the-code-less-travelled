@@ -13,10 +13,10 @@ const Container = styled.div`
 const Content = styled.div`
   display: flex;
   flex-direction: column;
-  flex: 1;
+  flex: 3;
   overflow: scroll;
-  padding: 20px;
-  color: #7e7e7e;
+  padding: 15px;
+  color: #404040;
 `
 
 const Query = graphql`
