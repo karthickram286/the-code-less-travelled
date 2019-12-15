@@ -87,7 +87,7 @@ We can use these annotations either at class level or at the field level.
     }
     ```
 
-    When used at the field level, the getters and setters are created only for that particular fields.
+    When used at the field level, the getters and setters are created only for those particular fields.
 
     ```java
     class Car {
@@ -101,11 +101,11 @@ We can use these annotations either at class level or at the field level.
         private String colour;
     }
     ```
-    In the above example, getter method is generated only for the *carName* field and the setter method is generated only for the *color* field.
+    In the above example, the getter method is generated only for the *carName* field and the setter method is generated only for the *color* field.
 
 * ####Constructors
 
-    Lombox also helps in generating the constructors for our classes.
+    Lombok also helps in generating the constructors for our classes.
 
     ```java
     @AllArgsConstructor
@@ -132,7 +132,7 @@ We can use these annotations either at class level or at the field level.
     }
     ```
 
-    There is also a *@NoArgsConstructor* which generates a constructor withour any parameters.
+    There is also a *@NoArgsConstructor* which generates a constructor without any parameters.
 
 * #### Builder pattern
 
@@ -163,8 +163,6 @@ We can use these annotations either at class level or at the field level.
     - *@Data* lets you have all commonly used annotations like @ToString, @EqualsAndHashCode, @Getter and @Setter for all fields.
     - *@NonNull* lets you generate a null-check statement for your fields.
 
-
-<center><iframe src="https://media.giphy.com/media/zcCGBRQshGdt6/giphy.gif" width="480" height="308" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></center>
 
 ---
 
