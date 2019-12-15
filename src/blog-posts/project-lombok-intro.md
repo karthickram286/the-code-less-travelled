@@ -62,8 +62,7 @@ Well, **[Project Lombok](https://projectlombok.org/)** is here to help you.
 ---
 
 ###Project Lombok
-Project Lombok is a java library that automatically plugs into your editor and build tools and helps reduce the boiler plate code.
-It helps you to get rid of all those boilerplate code.
+Project Lombok is a java library that automatically plugs into your editor and build tools and helps reduce the boilerplate code.
 
 It uses *annotations* that can be used within our code and it is processed during compile time. The code expansion will take place in runtime based on the annotation used. 
 
@@ -74,7 +73,7 @@ This helps in code reduction and helps us in writing clean, easily maintainable 
 ###Lombok Annotations
 
 * ####Getters and Setters
-We can use these annotations either at class level or at field level.
+We can use these annotations either at class level or at the field level.
 
     When it is set at *class level* getters and setters are created for all fields.
 
@@ -88,7 +87,7 @@ We can use these annotations either at class level or at field level.
     }
     ```
 
-    When used at field level, the getters and setters are created only for that particular fields.
+    When used at the field level, the getters and setters are created only for that particular fields.
 
     ```java
     class Car {
@@ -159,18 +158,19 @@ We can use these annotations either at class level or at field level.
 
 * #### Other annotations
 
-    - *@EqualsAndHashCode* lets you to override the equals() and hashCode() methods of your class.
-    - *@ToString* lets you to generate a toString() implementation.
-    - *@Data* lets you to have all commonly used annotations like @ToString, @EqualsAndHashCode, @Getter and @Setter for all fields.
-    - *@NonNull* lets you to generate a null-check statement for your fields.
+    - *@EqualsAndHashCode* lets you override the equals() and hashCode() methods of your class.
+    - *@ToString* lets you generate a toString() implementation.
+    - *@Data* lets you have all commonly used annotations like @ToString, @EqualsAndHashCode, @Getter and @Setter for all fields.
+    - *@NonNull* lets you generate a null-check statement for your fields.
 
 
-<center><iframe src="https://giphy.com/embed/zcCGBRQshGdt6" width="480" height="308" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></center>
+<center><iframe src="https://media.giphy.com/media/zcCGBRQshGdt6/giphy.gif" width="480" height="308" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></center>
+
 ---
 
 ###How can I Install It?
 
-Adding Lombok to your project is easy. You can just add the below dependency in your *pom.xml* file. Ofcourse, you need a **Maven** project for that.
+Adding Lombok to your project is easy. You can just add the below dependency in your *pom.xml* file. Of course, you need a **Maven** project for that.
 
 ```xml
 <dependency>
