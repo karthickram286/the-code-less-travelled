@@ -5,6 +5,7 @@ import styled from 'styled-components'
 import Layout from '../components/layout'
 import PostTags from '../components/postTags'
 import { PostWrapper } from '../components/postwrapper'
+import PostMessage from '../components/disqus'
 
 const StyledTag = styled.span`
   font-style: italic;
@@ -24,6 +25,7 @@ export default ({ data }) => {
           <StyledTag>Tags</StyledTag>: <PostTags tags={post.frontmatter.tags} />
         </p>
       </PostWrapper>
+      <PostMessage props={post.frontmatter.title}></PostMessage>
     </Layout>
   )
 }
