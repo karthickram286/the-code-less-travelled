@@ -6,7 +6,6 @@ import { DiscussionEmbed } from 'disqus-react'
 import Layout from '../components/layout'
 import PostTags from '../components/postTags'
 import { PostWrapper } from '../components/postwrapper'
-// import PostMessage from '../components/disqus'
 
 const StyledTag = styled.span`
   font-style: italic;
@@ -33,7 +32,6 @@ export default ({ data }) => {
         </p>
       </PostWrapper>
       <DiscussionEmbed shortname={disqusShortName} config={disqusConfig} />
-      {/* <PostMessage props={post.frontmatter.title}></PostMessage> */}
     </Layout>
   )
 }
