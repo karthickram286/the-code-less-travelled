@@ -13,7 +13,13 @@ const StyledTag = styled.span`
 `
 
 export default ({ data }) => {
-  const post = data.markdownRemark
+  const post = data.markdownRemark;
+  const disqusShortName = 'the-code-less-travelled';
+  const disqusConfig = {
+    identifier: post.frontmatter.title.replace(/ +/g, ""), 
+    title: post.frontmatter.title
+  }
+  console.log(disqusConfig.identifier);
 
   return (
     <Layout>
@@ -26,14 +32,7 @@ export default ({ data }) => {
           <StyledTag>Tags</StyledTag>: <PostTags tags={post.frontmatter.tags} />
         </p>
       </PostWrapper>
-      <DiscussionEmbed {...{
-                              shortname: process.env.GATSBY_DISQUS_NAME,
-                              config: {
-                                identifier: post.frontmatter.title, 
-                                title: post.frontmatter.title
-                              }
-                            } 
-                        }  />
+      <DiscussionEmbed shortname={disqusShortName} config={disqusConfig} />
       {/* <PostMessage props={post.frontmatter.title}></PostMessage> */}
     </Layout>
   )
