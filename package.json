@@ -18,6 +18,7 @@
   },
   "dependencies": {
     "babel-plugin-styled-components": "^1.9.4",
+    "disqus-react": "^1.0.7",
     "gatsby": "^2.18.12",
     "gatsby-plugin-disqus": "^1.1.4",
     "gatsby-plugin-manifest": "^2.0.12",

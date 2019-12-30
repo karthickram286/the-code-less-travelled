@@ -13,7 +13,7 @@ export default ({ data, pageContext }) => {
 
           return (
             <li key={tag}>
-              <Link to={path}>{tag}</Link>
+              <Link to={path} style={{ textDecoration: 'none', color: 'blue' }}>{tag}</Link>
             </li>
           )
         })}
