@@ -54,7 +54,9 @@ class Car {
 
 Notice that for a simple class with just three variables, generating the getters and setters made the class *so long*. Imagine generating getters and setters for a class with more than ten variables. 
 
-<center><iframe src="https://media.giphy.com/media/5z23XMH5WREPpkBl2u/giphy.gif" width="480" height="254" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></center>
+<center>
+    <img align="center" src="https://media.giphy.com/media/5z23XMH5WREPpkBl2u/giphy.gif">
+</center>
 
 Wouldn't it be great if we can get rid of these boilerplate getters and setters in our class, but can still use those methods? Can we avoid writing several lines of code?
 Well, **[Project Lombok](https://projectlombok.org/)** is here to help you.
@@ -163,7 +165,9 @@ We can use these annotations either at class level or at the field level.
     - *@Data* lets you have all commonly used annotations like @ToString, @EqualsAndHashCode, @Getter and @Setter for all fields.
     - *@NonNull* lets you generate a null-check statement for your fields.
 
-
+<center>
+    <img align="center" src="https://media.giphy.com/media/zcCGBRQshGdt6/giphy.gif">
+</center>
 ---
 
 ###How can I Install It?
