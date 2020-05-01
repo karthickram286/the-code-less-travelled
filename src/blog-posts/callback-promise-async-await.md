@@ -1,7 +1,7 @@
 ---
 title: 'Callbacks, Promise and Async/Await in Javascript'
 date: '2019-12-25'
-tags: ['JavaScript', 'Callback', 'Promise', 'Async/Await', 'non-blocking', 'asynchronous']
+tags: ['javascript', 'callback', 'promise', 'async/await', 'non-blocking', 'asynchronous']
 ---
 
 Javascript always runs the code in a non-blocking way. We'll see what I mean by that in this post. Since I come from a Java background, to check the flow of a particular operation, I code in the following manner.

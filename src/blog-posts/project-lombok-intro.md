@@ -1,7 +1,7 @@
 ---
 title: 'An Introduction to Project Lombok'
 date: '2019-12-09'
-tags: ['Java', 'Lombok']
+tags: ['java', 'lombok']
 ---
 
 Every single person who worked on Java would have created an Object at some point. Well, what is an Object? 
